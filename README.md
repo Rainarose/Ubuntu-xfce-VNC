@@ -9,6 +9,7 @@ vultr不知道什么原因安装之后连不上
 
 参考文章:   
 https://blog.csdn.net/qq_33062317/article/details/80050325  
+   
 脚本默认安装firefox浏览器    
 修改了字体解决了firefox中文乱码问题  
 参考文章  
