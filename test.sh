@@ -1,4 +1,3 @@
-sudo su root| echo "获取root"
 apt-get update
 apt-get -y install xfce4
 apt-get -y install vnc4server
@@ -9,4 +8,5 @@ wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/xstartu
 mv xstartup.txt /root/.vnc/xstartup
 cd /root/.vnc/
 chmod 755 xstartup
+echo "重启中,请稍等"
 reboot
