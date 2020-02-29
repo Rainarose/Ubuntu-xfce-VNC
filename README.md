@@ -17,10 +17,6 @@ https://blog.csdn.net/Striker_V/article/details/52592591
 
 # 步骤1:依次执行下面的命令,执行完毕服务器会重启
 
-## 命令1: 
-
-sudo su root  
-
 ## 命令2:
 安装过程中有两处停顿,第一次需要直接回车   
 第二次是输入vnc连接密码,只能八位数,  
