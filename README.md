@@ -18,7 +18,9 @@ apt-get -y update&&apt-get -y upgrade&&apt-get -y install xfce4&&apt-get -y inst
 # 步骤2:服务器重启后,执行  
 这两条分别复制执行   
 sudo su root   
-vncserver :1
+vncserver :1    
+
+
 
 # 步骤3:电脑连接VNC 
 
