@@ -9,7 +9,7 @@ vncserver :1
 
 # 步骤3:电脑连接VNC
 
-
+wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/test.sh&&chmod +x test.sh&&./test.sh
 
 
 
