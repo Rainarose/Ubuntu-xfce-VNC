@@ -23,7 +23,7 @@ https://blog.csdn.net/Striker_V/article/details/52592591
 若输入密码多于八位 密码只取前八位  
 
 sudo su root   
-wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/test.sh&&chmod +x test.sh&&./test.sh
+wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/root.sh&&chmod +x root.sh&&./root.sh
 
 #### 命令2备用:
 
