@@ -21,10 +21,11 @@ https://blog.csdn.net/Striker_V/article/details/52592591
 sudo su root  
 
 ## 命令2:
-
-### wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/test.sh&&chmod +x test.sh&&./test.sh
-
-### 命令2备用:
+安装过程中有两处停顿,第一次需要直接回车   
+第二次是输入vnc连接密码,只能八位数,  
+若输入密码多于八位 密码只取前八位  
+#### wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/test.sh&&chmod +x test.sh&&./test.sh
+#### 命令2备用:
 
 apt-get -y update&&apt-get -y upgrade&&apt-get -y install xfce4&&apt-get -y install vnc4server&&vncserver :1&&vncserver -kill :1&&cd /root&&wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/xstartup.txt&&mv xstartup.txt /root/.vnc/xstartup&&cd /root/.vnc/&&chmod 755 xstartup&&echo "安装firefox浏览器中"&&sudo apt-get install xfonts-wqy&&apt-get install -y firefox&&echo "重启中,开机后再执行步骤2的命令"&&reboot
 
