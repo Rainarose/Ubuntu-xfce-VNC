@@ -2,6 +2,7 @@
 Ubuntu服务器安装桌面版一键脚本
 参考文章:   
 https://blog.csdn.net/qq_33062317/article/details/80050325
+https://blog.csdn.net/Striker_V/article/details/52592591
 
 # 步骤1:先执行下面的命令,执行完毕服务器会重启
 
