@@ -1,5 +1,12 @@
 # Ubuntu-xfce-VNC
-Ubuntu服务器安装桌面版一键脚本  
+Ubuntu服务器安装桌面版一键脚本   
+测试通过:
+阿里云香港轻量  
+UbuntuUbuntu 16.04  
+UbuntuUbuntu 18.04  
+
+vultr不知道什么原因安装之后连不上  
+
 参考文章:   
 https://blog.csdn.net/qq_33062317/article/details/80050325  
 脚本默认安装firefox浏览器    
