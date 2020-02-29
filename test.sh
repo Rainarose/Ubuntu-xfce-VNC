@@ -8,5 +8,6 @@ wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/xstartu
 mv xstartup.txt /root/.vnc/xstartup
 cd /root/.vnc/
 chmod 755 xstartup
+apt-get install -y firefox
 echo "重启中,请稍等"
 reboot
