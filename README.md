@@ -1,6 +1,6 @@
 # Ubuntu-xfce-VNC
 Ubuntu服务器安装桌面版一键脚本   
-测试通过:
+测试通过:  
 阿里云香港轻量  
 UbuntuUbuntu 16.04  
 UbuntuUbuntu 18.04  
