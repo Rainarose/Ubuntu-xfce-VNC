@@ -33,5 +33,15 @@ ip:1
 就完成了
 
 
+其他:
+
+## vnc关闭:  
+sudo -i
+vncserver -kill :1
+
+## vnc重启
+sudo -i
+vncserver -kill :1
+vncserver :1
 
 
