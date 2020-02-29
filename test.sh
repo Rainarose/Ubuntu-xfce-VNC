@@ -9,5 +9,6 @@ mv xstartup.txt /root/.vnc/xstartup
 cd /root/.vnc/
 chmod 755 xstartup
 apt-get install -y firefox
+sudo apt-get install xfonts-wqy
 echo "重启中,请稍等"
 reboot
