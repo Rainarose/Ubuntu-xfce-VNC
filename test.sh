@@ -1,4 +1,5 @@
-apt-get update
+apt-get -y update
+apt-get -y upgrade
 apt-get -y install xfce4
 apt-get -y install vnc4server
 vncserver :1
