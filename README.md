@@ -33,7 +33,10 @@ ip:1
 就完成了
 
 
-# 其他:
+# 其他:  
+sudo -i    
+vncserver :1  
+## VNC开启  
 
 ## vnc关闭:    
 sudo -i   
