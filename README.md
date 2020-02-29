@@ -33,9 +33,9 @@ ip:1
 就完成了
 
 
-其他:
+# 其他:
 
-## vnc关闭:  
+## vnc关闭:    
 sudo -i   
 vncserver -kill :1
 
