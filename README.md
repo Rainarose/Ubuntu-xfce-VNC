@@ -4,7 +4,8 @@ Ubuntu服务器安装桌面版一键脚本
 https://blog.csdn.net/qq_33062317/article/details/80050325  
 脚本默认安装firefox浏览器    
 修改了字体解决了firefox中文乱码问题  
-参考文章https://blog.csdn.net/Striker_V/article/details/52592591  
+参考文章  
+https://blog.csdn.net/Striker_V/article/details/52592591  
 
 # 步骤1:先执行下面的命令,执行完毕服务器会重启
 
@@ -36,10 +37,10 @@ ip:1
 
 
 # 其他:  
+
+## VNC开启  
 sudo -i    
 vncserver :1  
-## VNC开启  
-
 ## vnc关闭:    
 sudo -i   
 vncserver -kill :1
