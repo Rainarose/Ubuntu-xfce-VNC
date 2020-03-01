@@ -18,6 +18,8 @@ wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/xstartu
 mv xstartup.txt /home/admin/.vnc/xstartup  
 cd /home/admin/.vnc/  
 chmod 755 xstartup  
+vncserver :2  
+echo "VNC已经启动"
 
 
 
