@@ -6,7 +6,7 @@ apt-get -y install xfce4
 apt-get -y install vnc4server  
 apt-get install -y firefox  
 sudo apt-get install xfonts-wqy  
-echo "重启中,请稍等"
+echo "重启中,请稍等"  
 reboot  
 # 脚本2(重启后执行--安装chrome--amin下):  
 echo "安装chrome"    
