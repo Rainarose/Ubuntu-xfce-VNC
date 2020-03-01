@@ -9,7 +9,7 @@ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key a
 sudo apt-get -y update  
 sudo apt-get -y install google-chrome-stable  
 sudo apt-get -y install ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy  
-# 脚本3(admin下--配置admint用户的vnc):  
+# 脚本3(必须admin下--配置admint用户的vnc):  
 echo "中间需要您设置VNC密码"  
 vncserver :2  
 vncserver -kill :2  
