@@ -19,7 +19,7 @@ mv xstartup.txt /home/admin/.vnc/xstartup
 cd /home/admin/.vnc/  
 chmod 755 xstartup  
 vncserver :2  
-echo "VNC已经启动"
+echo "VNC已经启动,可以用电脑连接了"
 
 
 
