@@ -20,7 +20,7 @@ cd /home/admin/.vnc/
 chmod 755 xstartup  
 vncserver :2  
 echo "VNC已经启动,可以用电脑连接了"  
-### 重启VNC  
+#脚本4(重启VNC)    
 vncserver -kill :2  
 vncserver :2  
 ### 电脑连接VNC  
