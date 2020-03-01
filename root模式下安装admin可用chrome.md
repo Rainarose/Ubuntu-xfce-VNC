@@ -40,6 +40,8 @@ vncserver :2
 ### 电脑连接VNC  
 ip:2  
 
+## 若chrome中文字体乱码  
+sudo apt-get -y install ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
 
 
 
