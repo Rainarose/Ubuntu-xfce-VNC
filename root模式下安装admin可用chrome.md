@@ -2,14 +2,14 @@
 sudo su root  
 wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/root.sh&&chmod +x root.sh&&./root.sh  
 
-# 脚本2(重启后执行--安装chrome):  
+# 脚本2(重启后执行--安装chrome--非root下):  
 echo "安装chrome"    
 sudo wget http://www.linuxidc.com/files/repo/google-chrome.list -P /etc/apt/sources.list.d/   
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -    
 sudo apt-get -y update  
 sudo apt-get -y install google-chrome-stable  
-
-# 脚本3(admin下或者非root用户即可--配置非root用户的vnc):  
+sudo apt-get -y install ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy  
+# 脚本3(admin下--配置admint用户的vnc):  
 echo "中间需要您设置VNC密码"  
 vncserver :2  
 vncserver -kill :2  
