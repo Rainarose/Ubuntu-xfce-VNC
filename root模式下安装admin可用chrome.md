@@ -16,7 +16,7 @@ sudo apt-get -y update
 sudo apt-get -y install google-chrome-stable  
 sudo apt-get -y install ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy  
 echo "修改配置文件,解决chrome乱码问题"  
-sudo -i
+sudo -i  
 wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/49-sansserif.conf  
 echo "备份远文件中"  
 mv /etc/fonts/conf.d/49-sansserif.conf /etc/fonts/conf.d/49-sansserif.conf.backup  
