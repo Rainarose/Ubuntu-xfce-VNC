@@ -10,7 +10,7 @@ echo "重启中,请稍等"
 reboot  
 # 脚本2(重启后执行--安装chrome--amin下):  
 echo "安装chrome"    
-sudo wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/google-chrome.list -P /etc/apt/sources.list.d/ 
+sudo wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/google-chrome.list -P /etc/apt/sources.list.d/    
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -    
 sudo apt-get -y update  
 sudo apt-get -y install google-chrome-stable  
