@@ -20,8 +20,8 @@ sudo -i
 wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/49-sansserif.conf  
 echo "备份远文件中"  
 mv /etc/fonts/conf.d/49-sansserif.conf /etc/fonts/conf.d/49-sansserif.conf.backup  
-sudo mv 49-sansserif.conf /etc/fonts/conf.d/49-sansserif.conf  
-sudo chmod 777 /etc/fonts/conf.d/49-sansserif.conf  
+mv 49-sansserif.conf /etc/fonts/conf.d/49-sansserif.conf  
+chmod 777 /etc/fonts/conf.d/49-sansserif.conf  
 reboot  
 # 脚本3(必须admin下--配置admint用户的vnc):  
 echo "中间需要您设置VNC密码"  
