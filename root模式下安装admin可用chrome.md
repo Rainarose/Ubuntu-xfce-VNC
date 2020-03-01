@@ -1,4 +1,4 @@
-# 脚本1(root模式下安装vnc和桌面):  
+# 脚本1(root模式下安装vnc+桌面+firefox):  
 sudo su root  
 apt-get -y update  
 apt-get -y upgrade  
@@ -8,7 +8,7 @@ apt-get install -y firefox
 sudo apt-get install xfonts-wqy  
 echo "重启中,请稍等"
 reboot  
-# 脚本2(重启后执行--安装chrome--非root下):  
+# 脚本2(重启后执行--安装chrome--amin下):  
 echo "安装chrome"    
 sudo wget http://www.linuxidc.com/files/repo/google-chrome.list -P /etc/apt/sources.list.d/   
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -    
