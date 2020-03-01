@@ -1,7 +1,13 @@
 # 脚本1(root模式下安装vnc和桌面):  
 sudo su root  
-wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/root.sh&&chmod +x root.sh&&./root.sh  
-
+apt-get -y update
+apt-get -y upgrade
+apt-get -y install xfce4
+apt-get -y install vnc4server
+apt-get install -y firefox
+sudo apt-get install xfonts-wqy
+echo "重启中,请稍等"
+reboot  
 # 脚本2(重启后执行--安装chrome--非root下):  
 echo "安装chrome"    
 sudo wget http://www.linuxidc.com/files/repo/google-chrome.list -P /etc/apt/sources.list.d/   
