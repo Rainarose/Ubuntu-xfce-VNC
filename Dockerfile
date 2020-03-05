@@ -1,4 +1,6 @@
 FROM ubuntu:18.04
+LABEL version="1.0" 
+LABEL maintainer="pig4cloud.com"
 ENV from:chengziblog.com,github/chengziqaq/Ubuntu-xfce-VNC
 RUN apt-get -y update \
     &&apt-get -y upgrade \  
