@@ -1,6 +1,5 @@
 FROM ubuntu:16.04
-LABEL version="1.0" 
-LABEL maintainer="github/chengziqaq"
+LABEL maintainer="github/chengziqaq" version="1.0"
 RUN apt-get -y update \
     &&apt-get -y upgrade \
     &&apt-get -y install wget \
