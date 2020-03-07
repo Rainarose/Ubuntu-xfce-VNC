@@ -15,4 +15,5 @@ RUN cd /root \
     cd /root/.vnc/
     chmod 755 xstartup
     vncserver :2
-    
+WORKDIR /root
+CMD vncserver :2   
