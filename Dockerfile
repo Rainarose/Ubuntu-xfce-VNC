@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 LABEL maintainer="github/chengziqaq" version="1.0"
 RUN apt-get -y update \
     &&apt-get -y upgrade \
