@@ -12,7 +12,7 @@ RUN apt-get -y update \
 WORKDIR /root
 RUN
     # set password
-    &&echo -e "zx199812" | vncserver :2 \
+    echo -e "zx199812" | vncserver :2 \
     &&vncserver -kill :2 \
     wget https://raw.githubusercontent.com/chengziqaq/Ubuntu-xfce-VNC/master/xstartup.txt
     mv xstartup.txt /root/.vnc/xstartup
