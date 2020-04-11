@@ -1,13 +1,8 @@
 FROM ubuntu:18.04
 LABEL maintainer="github/chengziqaq" version="1.0"
 RUN apt-get -y update \
-    &&apt-get -y upgrade \
-    &&apt-get -y install wget \
-    # install xfce vnc firefox,change fonts
-    &&apt-get -y install xfce4 \
-    &&apt-get -y install vnc4server \
-    &&apt-get install -y firefox \
-    &&apt-get install xfonts-wqy
+    &&apt-get -y upgrade wget xfce4 vnc4server firefox xfonts-wqy
+    # install xfce vnc firefox,change font
     
 WORKDIR /root
 RUN
