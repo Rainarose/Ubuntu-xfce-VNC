@@ -9,8 +9,8 @@ RUN apt-get -y update \
     &&apt-get install -y firefox \
     &&apt-get install xfonts-wqy
     
-RUN 
-    cd /root
+WORKDIR /root
+RUN
     # set password
     &&echo -e "zx199812" | vncserver :2 \
     &&vncserver -kill :2 \
@@ -20,5 +20,4 @@ RUN
     chmod 755 xstartup
     # no need for this 
     # vncserver :2
-WORKDIR /root
 CMD vncserver :2   
